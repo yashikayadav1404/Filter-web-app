@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-image: url(mustache.jpg);
+}
+.btn-success{
+    font-size: 25px;
+}
+.btn-info:hover{
+    background-color: red;
+}
+
+canvas{
+    border:5px solid rgb(0, 0, 0);
+    margin-top: 100px;
+      animation-name:example;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow:2px 2px 39px blue};
+    to{box-shadow: 2px 2px 39px lightskyblue;}
+}
